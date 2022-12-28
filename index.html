@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="clock-face">
+      <div class="hour-section">
+        <h2 class="hour-hand">
+          <span id="hours"></span>
+        </h2>
+        <p>Hours</p>
+      </div>
+      <div class="minute-section">
+        <h2 class="minute-hand" id="minutes"> </h2>
+        <p>Minutes</p>
+      </div>
+      <div class="seconds-section">
+        <h2 class="seconds-hand" id="seconds"> </h2>
+        <p>Seconds</p>
+      </div>
+      <div>
+        <h2 class="am-pm"  id="day-night"> </h2>
+      </div>      
+    </div>
+    <div class="date">
+      <p class="today" id="Month"> </p>
+      <p class="today" id="Date"> </p>
+      <p class="today" id="Year"> </p>
+    </div>    
+    <script src="./app.js"></script>
+  </body>
+</html>
